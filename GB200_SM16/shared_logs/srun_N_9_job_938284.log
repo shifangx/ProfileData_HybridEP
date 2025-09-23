@@ -1,0 +1,251 @@
+test test_mnnvlink_hybridep, host: ptyche0200.ptyche.clusters.nvidia.com
+test test_mnnvlink_hybridep, host: ptyche0202.ptyche.clusters.nvidia.com
+test test_mnnvlink_hybridep, host: ptyche0206.ptyche.clusters.nvidia.com
+test test_mnnvlink_hybridep, host: ptyche0199.ptyche.clusters.nvidia.com
+test test_mnnvlink_hybridep, host: ptyche0203.ptyche.clusters.nvidia.com
+test test_mnnvlink_hybridep, host: ptyche0205.ptyche.clusters.nvidia.com
+test test_mnnvlink_hybridep, host: ptyche0207.ptyche.clusters.nvidia.com
+test test_mnnvlink_hybridep, host: ptyche0204.ptyche.clusters.nvidia.com
+test test_mnnvlink_hybridep, host: ptyche0201.ptyche.clusters.nvidia.com
+[rank 15] HybridEP dispatch torch API (FP8): 209.66 GB/s (NVL), t: 1035.71 us, nvl_recv_bytes: 217.15 MB
+[rank 12] HybridEP dispatch torch API (FP8): 211.83 GB/s (NVL), t: 1035.14 us, nvl_recv_bytes: 219.28 MB
+[rank 13] HybridEP dispatch torch API (FP8): 232.39 GB/s (NVL), t: 1035.17 us, nvl_recv_bytes: 240.57 MB
+[rank 11] HybridEP dispatch torch API (FP8): 222.78 GB/s (NVL), t: 1035.62 us, nvl_recv_bytes: 230.72 MB
+[rank 7] HybridEP dispatch torch API (FP8): 210.69 GB/s (NVL), t: 1035.71 us, nvl_recv_bytes: 218.21 MB
+[rank 3] HybridEP dispatch torch API (FP8): 216.98 GB/s (NVL), t: 1035.13 us, nvl_recv_bytes: 224.60 MB
+Correctness check passed
+[rank 0] HybridEP dispatch torch API (FP8): 206.84 GB/s (NVL), t: 1035.67 us, nvl_recv_bytes: 214.22 MB
+[rank 1] HybridEP dispatch torch API (FP8): 213.27 GB/s (NVL), t: 1035.66 us, nvl_recv_bytes: 220.87 MB
+[rank 24] HybridEP dispatch torch API (FP8): 208.92 GB/s (NVL), t: 1035.54 us, nvl_recv_bytes: 216.35 MB
+[rank 19] HybridEP dispatch torch API (FP8): 206.83 GB/s (NVL), t: 1035.74 us, nvl_recv_bytes: 214.22 MB
+[rank 17] HybridEP dispatch torch API (FP8): 217.22 GB/s (NVL), t: 1035.19 us, nvl_recv_bytes: 224.86 MB
+[rank 16] HybridEP dispatch torch API (FP8): 216.97 GB/s (NVL), t: 1035.18 us, nvl_recv_bytes: 224.60 MB
+[rank 18] HybridEP dispatch torch API (FP8): 202.73 GB/s (NVL), t: 1035.70 us, nvl_recv_bytes: 209.96 MB
+[rank 20] HybridEP dispatch torch API (FP8): 209.65 GB/s (NVL), t: 1035.78 us, nvl_recv_bytes: 217.15 MB
+[rank 29] HybridEP dispatch torch API (FP8): 211.19 GB/s (NVL), t: 1035.75 us, nvl_recv_bytes: 218.74 MB
+[rank 28] HybridEP dispatch torch API (FP8): 216.59 GB/s (NVL), t: 1035.76 us, nvl_recv_bytes: 224.33 MB
+[rank 14] HybridEP dispatch torch API (FP8): 207.61 GB/s (NVL), t: 1035.69 us, nvl_recv_bytes: 215.02 MB
+[rank 10] HybridEP dispatch torch API (FP8): 222.48 GB/s (NVL), t: 1034.64 us, nvl_recv_bytes: 230.19 MB
+[rank 9] HybridEP dispatch torch API (FP8): 228.93 GB/s (NVL), t: 1034.53 us, nvl_recv_bytes: 236.84 MB
+[rank 8] HybridEP dispatch torch API (FP8): 225.96 GB/s (NVL), t: 1035.21 us, nvl_recv_bytes: 233.91 MB
+[rank 4] HybridEP dispatch torch API (FP8): 213.87 GB/s (NVL), t: 1035.24 us, nvl_recv_bytes: 221.41 MB
+[rank 6] HybridEP dispatch torch API (FP8): 222.51 GB/s (NVL), t: 1035.72 us, nvl_recv_bytes: 230.45 MB
+[rank 5] HybridEP dispatch torch API (FP8): 216.44 GB/s (NVL), t: 1035.23 us, nvl_recv_bytes: 224.07 MB
+[rank 2] HybridEP dispatch torch API (FP8): 221.79 GB/s (NVL), t: 1035.44 us, nvl_recv_bytes: 229.65 MB
+[rank 26] HybridEP dispatch torch API (FP8): 207.96 GB/s (NVL), t: 1035.24 us, nvl_recv_bytes: 215.28 MB
+[rank 27] HybridEP dispatch torch API (FP8): 214.81 GB/s (NVL), t: 1035.65 us, nvl_recv_bytes: 222.47 MB
+[rank 25] HybridEP dispatch torch API (FP8): 211.06 GB/s (NVL), t: 1035.16 us, nvl_recv_bytes: 218.48 MB
+[rank 35] HybridEP dispatch torch API (FP8): 216.59 GB/s (NVL), t: 1035.76 us, nvl_recv_bytes: 224.33 MB
+[rank 33] HybridEP dispatch torch API (FP8): 219.01 GB/s (NVL), t: 1035.24 us, nvl_recv_bytes: 226.73 MB
+[rank 34] HybridEP dispatch torch API (FP8): 215.84 GB/s (NVL), t: 1035.67 us, nvl_recv_bytes: 223.53 MB
+[rank 21] HybridEP dispatch torch API (FP8): 224.83 GB/s (NVL), t: 1035.65 us, nvl_recv_bytes: 232.85 MB
+[rank 22] HybridEP dispatch torch API (FP8): 214.38 GB/s (NVL), t: 1035.26 us, nvl_recv_bytes: 221.94 MB
+[rank 23] HybridEP dispatch torch API (FP8): 222.36 GB/s (NVL), t: 1035.21 us, nvl_recv_bytes: 230.19 MB
+[rank 31] HybridEP dispatch torch API (FP8): 215.42 GB/s (NVL), t: 1035.17 us, nvl_recv_bytes: 223.00 MB
+[rank 30] HybridEP dispatch torch API (FP8): 208.75 GB/s (NVL), t: 1035.15 us, nvl_recv_bytes: 216.08 MB
+[rank 32] HybridEP dispatch torch API (FP8): 207.95 GB/s (NVL), t: 1035.25 us, nvl_recv_bytes: 215.28 MB
+[rank 11] HybridEP combine torch API: 432.89 GB/s (NVL), t: 1033.65 us, combine_send_bytes: 447.46 MB
+[rank 9] HybridEP combine torch API: 444.70 GB/s (NVL), t: 1032.90 us, combine_send_bytes: 459.33 MB
+[rank 7] HybridEP combine torch API: 409.22 GB/s (NVL), t: 1034.15 us, combine_send_bytes: 423.20 MB
+[rank 6] HybridEP combine torch API: 432.30 GB/s (NVL), t: 1033.87 us, combine_send_bytes: 446.94 MB
+[rank 0] HybridEP combine torch API: 401.77 GB/s (NVL), t: 1034.06 us, combine_send_bytes: 415.46 MB
+[rank 1] HybridEP combine torch API: 414.28 GB/s (NVL), t: 1034.00 us, combine_send_bytes: 428.36 MB
+[rank 24] HybridEP combine torch API: 405.81 GB/s (NVL), t: 1033.94 us, combine_send_bytes: 419.59 MB
+[rank 27] HybridEP combine torch API: 417.22 GB/s (NVL), t: 1034.13 us, combine_send_bytes: 431.46 MB
+[rank 19] HybridEP combine torch API: 401.76 GB/s (NVL), t: 1034.10 us, combine_send_bytes: 415.46 MB
+[rank 18] HybridEP combine torch API: 393.82 GB/s (NVL), t: 1033.98 us, combine_send_bytes: 407.20 MB
+[rank 34] HybridEP combine torch API: 419.08 GB/s (NVL), t: 1034.46 us, combine_send_bytes: 433.52 MB
+[rank 35] HybridEP combine torch API: 420.84 GB/s (NVL), t: 1033.80 us, combine_send_bytes: 435.07 MB
+[rank 20] HybridEP combine torch API: 407.24 GB/s (NVL), t: 1034.11 us, combine_send_bytes: 421.13 MB
+[rank 21] HybridEP combine torch API: 436.81 GB/s (NVL), t: 1033.83 us, combine_send_bytes: 451.58 MB
+[rank 29] HybridEP combine torch API: 410.28 GB/s (NVL), t: 1034.00 us, combine_send_bytes: 424.23 MB
+[rank 15] HybridEP combine torch API: 407.31 GB/s (NVL), t: 1033.93 us, combine_send_bytes: 421.13 MB
+[rank 10] HybridEP combine torch API: 432.06 GB/s (NVL), t: 1033.24 us, combine_send_bytes: 446.42 MB
+[rank 4] HybridEP combine torch API: 415.45 GB/s (NVL), t: 1033.56 us, combine_send_bytes: 429.39 MB
+[rank 2] HybridEP combine torch API: 430.62 GB/s (NVL), t: 1034.31 us, combine_send_bytes: 445.39 MB
+[rank 3] HybridEP combine torch API: 421.38 GB/s (NVL), t: 1033.71 us, combine_send_bytes: 435.59 MB
+[rank 25] HybridEP combine torch API: 409.97 GB/s (NVL), t: 1033.53 us, combine_send_bytes: 423.71 MB
+[rank 17] HybridEP combine torch API: 421.95 GB/s (NVL), t: 1033.53 us, combine_send_bytes: 436.10 MB
+[rank 33] HybridEP combine torch API: 425.57 GB/s (NVL), t: 1033.24 us, combine_send_bytes: 439.71 MB
+[rank 32] HybridEP combine torch API: 404.05 GB/s (NVL), t: 1033.35 us, combine_send_bytes: 417.52 MB
+[rank 23] HybridEP combine torch API: 432.03 GB/s (NVL), t: 1033.32 us, combine_send_bytes: 446.42 MB
+[rank 22] HybridEP combine torch API: 416.53 GB/s (NVL), t: 1033.35 us, combine_send_bytes: 430.42 MB
+[rank 28] HybridEP combine torch API: 420.66 GB/s (NVL), t: 1034.25 us, combine_send_bytes: 435.07 MB
+[rank 14] HybridEP combine torch API: 403.01 GB/s (NVL), t: 1034.73 us, combine_send_bytes: 417.01 MB
+[rank 8] HybridEP combine torch API: 438.90 GB/s (NVL), t: 1033.61 us, combine_send_bytes: 453.65 MB
+[rank 5] HybridEP combine torch API: 420.41 GB/s (NVL), t: 1033.64 us, combine_send_bytes: 434.55 MB
+[rank 26] HybridEP combine torch API: 403.94 GB/s (NVL), t: 1033.62 us, combine_send_bytes: 417.52 MB
+[rank 16] HybridEP combine torch API: 421.41 GB/s (NVL), t: 1033.65 us, combine_send_bytes: 435.59 MB
+[rank 30] HybridEP combine torch API: 405.60 GB/s (NVL), t: 1033.22 us, combine_send_bytes: 419.07 MB
+[rank 31] HybridEP combine torch API: 418.45 GB/s (NVL), t: 1033.56 us, combine_send_bytes: 432.49 MB
+[rank 12] HybridEP combine torch API: 411.36 GB/s (NVL), t: 1033.81 us, combine_send_bytes: 425.26 MB
+[rank 13] HybridEP combine torch API: 451.40 GB/s (NVL), t: 1033.56 us, combine_send_bytes: 466.55 MB
+[rank 7] HybridEP dispatch kernel (FP8): 253.89 GB/s, avg_t=859.47 us | HybridEP combine kernel: 528.23 GB/s, avg_t=801.16 us
+[rank 21] HybridEP dispatch kernel (FP8): 272.68 GB/s, avg_t=853.91 us | HybridEP combine kernel: 567.70 GB/s, avg_t=795.46 us
+[rank 28] HybridEP dispatch kernel (FP8): 261.21 GB/s, avg_t=858.82 us | HybridEP combine kernel: 549.15 GB/s, avg_t=792.26 us
+[rank 15] HybridEP dispatch kernel (FP8): 251.43 GB/s, avg_t=863.64 us | HybridEP combine kernel: 529.54 GB/s, avg_t=795.28 us
+[rank 29] HybridEP dispatch kernel (FP8): 257.92 GB/s, avg_t=848.11 us | HybridEP combine kernel: 530.78 GB/s, avg_t=799.25 us
+[rank 34] HybridEP dispatch kernel (FP8): 262.54 GB/s, avg_t=851.43 us | HybridEP combine kernel: 544.86 GB/s, avg_t=795.65 us
+[rank 22] HybridEP dispatch kernel (FP8): 257.67 GB/s, avg_t=861.33 us | HybridEP combine kernel: 538.49 GB/s, avg_t=799.32 us
+[rank 6] HybridEP dispatch kernel (FP8): 264.23 GB/s, avg_t=872.15 us | HybridEP combine kernel: 566.91 GB/s, avg_t=788.37 us
+[rank 0] HybridEP dispatch kernel (FP8): 251.93 GB/s, avg_t=850.30 us | HybridEP combine kernel: 525.21 GB/s, avg_t=791.02 us
+[rank 14] HybridEP dispatch kernel (FP8): 250.27 GB/s, avg_t=859.16 us | HybridEP combine kernel: 524.28 GB/s, avg_t=795.38 us
+[rank 1] HybridEP dispatch kernel (FP8): 257.75 GB/s, avg_t=856.92 us | HybridEP combine kernel: 537.67 GB/s, avg_t=796.69 us
+[rank 35] HybridEP dispatch kernel (FP8): 262.17 GB/s, avg_t=855.66 us | HybridEP combine kernel: 546.63 GB/s, avg_t=795.92 us
+[rank 4] HybridEP dispatch kernel (FP8): 259.30 GB/s, avg_t=853.85 us | HybridEP combine kernel: 540.44 GB/s, avg_t=794.53 us
+[rank 23] HybridEP dispatch kernel (FP8): 269.39 GB/s, avg_t=854.47 us | HybridEP combine kernel: 562.38 GB/s, avg_t=793.82 us
+[rank 31] HybridEP dispatch kernel (FP8): 258.87 GB/s, avg_t=861.43 us | HybridEP combine kernel: 544.77 GB/s, avg_t=793.89 us
+[rank 5] HybridEP dispatch kernel (FP8): 264.28 GB/s, avg_t=847.84 us | HybridEP combine kernel: 545.90 GB/s, avg_t=796.03 us
+[rank 20] HybridEP dispatch kernel (FP8): 252.04 GB/s, avg_t=861.55 us | HybridEP combine kernel: 527.78 GB/s, avg_t=797.93 us
+[rank 19] HybridEP dispatch kernel (FP8): 248.91 GB/s, avg_t=860.63 us | HybridEP combine kernel: 523.01 GB/s, avg_t=794.36 us
+[rank 3] HybridEP dispatch kernel (FP8): 261.92 GB/s, avg_t=857.52 us | HybridEP combine kernel: 546.90 GB/s, avg_t=796.46 us
+[rank 18] HybridEP dispatch kernel (FP8): 248.36 GB/s, avg_t=845.40 us | HybridEP combine kernel: 512.20 GB/s, avg_t=795.00 us
+[rank 33] HybridEP dispatch kernel (FP8): 265.06 GB/s, avg_t=855.39 us | HybridEP combine kernel: 546.50 GB/s, avg_t=804.60 us
+[rank 12] HybridEP dispatch kernel (FP8): 256.68 GB/s, avg_t=854.27 us | HybridEP combine kernel: 536.66 GB/s, avg_t=792.42 us
+[rank 30] HybridEP dispatch kernel (FP8): 252.74 GB/s, avg_t=854.96 us | HybridEP combine kernel: 529.46 GB/s, avg_t=791.51 us
+[rank 11] HybridEP dispatch kernel (FP8): 270.23 GB/s, avg_t=853.78 us | HybridEP combine kernel: 556.95 GB/s, avg_t=803.40 us
+[rank 16] HybridEP dispatch kernel (FP8): 261.78 GB/s, avg_t=857.95 us | HybridEP combine kernel: 546.01 GB/s, avg_t=797.76 us
+[rank 17] HybridEP dispatch kernel (FP8): 262.60 GB/s, avg_t=856.29 us | HybridEP combine kernel: 546.84 GB/s, avg_t=797.49 us
+[rank 25] HybridEP dispatch kernel (FP8): 256.50 GB/s, avg_t=851.76 us | HybridEP combine kernel: 532.44 GB/s, avg_t=795.79 us
+[rank 13] HybridEP dispatch kernel (FP8): 281.61 GB/s, avg_t=854.24 us | HybridEP combine kernel: 589.82 GB/s, avg_t=791.01 us
+[rank 32] HybridEP dispatch kernel (FP8): 251.36 GB/s, avg_t=856.48 us | HybridEP combine kernel: 528.37 GB/s, avg_t=790.21 us
+[rank 27] HybridEP dispatch kernel (FP8): 260.37 GB/s, avg_t=854.45 us | HybridEP combine kernel: 541.45 GB/s, avg_t=796.85 us
+[rank 10] HybridEP dispatch kernel (FP8): 268.24 GB/s, avg_t=858.13 us | HybridEP combine kernel: 562.46 GB/s, avg_t=793.70 us
+[rank 8] HybridEP dispatch kernel (FP8): 273.03 GB/s, avg_t=856.72 us | HybridEP combine kernel: 562.65 GB/s, avg_t=806.26 us
+[rank 26] HybridEP dispatch kernel (FP8): 252.55 GB/s, avg_t=852.45 us | HybridEP combine kernel: 526.43 GB/s, avg_t=793.12 us
+[rank 2] HybridEP dispatch kernel (FP8): 267.83 GB/s, avg_t=857.48 us | HybridEP combine kernel: 554.18 GB/s, avg_t=803.69 us
+[rank 24] HybridEP dispatch kernel (FP8): 252.16 GB/s, avg_t=857.97 us | HybridEP combine kernel: 525.85 GB/s, avg_t=797.92 us
+[rank 9] HybridEP dispatch kernel (FP8): 279.51 GB/s, avg_t=847.35 us | HybridEP combine kernel: 581.76 GB/s, avg_t=789.55 us
+[W923 06:55:05.387622360 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.387740343 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.387862391 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.393866400 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.393993984 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.394123743 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.401292004 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.401416580 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.401541763 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.408646569 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.408773224 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.408898408 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.416640970 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.416766346 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.416894313 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.423787920 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.423917807 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.424045455 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.430642550 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.430771285 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.430897237 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.438034138 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.438163289 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[W923 06:55:05.438289657 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0199.ptyche.clusters.nvidia.com]:53548 (errno: 22 - Invalid argument).
+[rank 14] HybridEP dispatch torch API (BF16): 453.06 GB/s (NVL), t: 920.43 us, nvl_recv_bytes: 417.01 MB
+[rank 15] HybridEP dispatch torch API (BF16): 457.47 GB/s (NVL), t: 920.57 us, nvl_recv_bytes: 421.13 MB
+[rank 3] HybridEP dispatch torch API (BF16): 473.47 GB/s (NVL), t: 919.98 us, nvl_recv_bytes: 435.59 MB
+[rank 1] HybridEP dispatch torch API (BF16): 465.34 GB/s (NVL), t: 920.53 us, nvl_recv_bytes: 428.36 MB
+[rank 2] HybridEP dispatch torch API (BF16): 484.10 GB/s (NVL), t: 920.03 us, nvl_recv_bytes: 445.39 MB
+[rank 16] HybridEP dispatch torch API (BF16): 473.44 GB/s (NVL), t: 920.05 us, nvl_recv_bytes: 435.59 MB
+[rank 17] HybridEP dispatch torch API (BF16): 474.01 GB/s (NVL), t: 920.03 us, nvl_recv_bytes: 436.10 MB
+[rank 18] HybridEP dispatch torch API (BF16): 442.37 GB/s (NVL), t: 920.50 us, nvl_recv_bytes: 407.20 MB
+[rank 21] HybridEP dispatch torch API (BF16): 490.52 GB/s (NVL), t: 920.62 us, nvl_recv_bytes: 451.58 MB
+[rank 22] HybridEP dispatch torch API (BF16): 467.81 GB/s (NVL), t: 920.08 us, nvl_recv_bytes: 430.42 MB
+[rank 13] HybridEP dispatch torch API (BF16): 507.05 GB/s (NVL), t: 920.14 us, nvl_recv_bytes: 466.55 MB
+[rank 12] HybridEP dispatch torch API (BF16): 462.19 GB/s (NVL), t: 920.10 us, nvl_recv_bytes: 425.26 MB
+Correctness check passed
+[rank 0] HybridEP dispatch torch API (BF16): 451.34 GB/s (NVL), t: 920.51 us, nvl_recv_bytes: 415.46 MB
+[rank 19] HybridEP dispatch torch API (BF16): 451.29 GB/s (NVL), t: 920.60 us, nvl_recv_bytes: 415.46 MB
+[rank 20] HybridEP dispatch torch API (BF16): 457.46 GB/s (NVL), t: 920.58 us, nvl_recv_bytes: 421.13 MB
+[rank 23] HybridEP dispatch torch API (BF16): 485.21 GB/s (NVL), t: 920.07 us, nvl_recv_bytes: 446.42 MB
+[rank 11] HybridEP dispatch torch API (BF16): 486.08 GB/s (NVL), t: 920.54 us, nvl_recv_bytes: 447.46 MB
+[rank 7] HybridEP dispatch torch API (BF16): 459.70 GB/s (NVL), t: 920.60 us, nvl_recv_bytes: 423.20 MB
+[rank 24] HybridEP dispatch torch API (BF16): 456.34 GB/s (NVL), t: 919.46 us, nvl_recv_bytes: 419.59 MB
+[rank 35] HybridEP dispatch torch API (BF16): 472.63 GB/s (NVL), t: 920.52 us, nvl_recv_bytes: 435.07 MB
+[rank 32] HybridEP dispatch torch API (BF16): 453.80 GB/s (NVL), t: 920.06 us, nvl_recv_bytes: 417.52 MB
+[rank 33] HybridEP dispatch torch API (BF16): 477.89 GB/s (NVL), t: 920.11 us, nvl_recv_bytes: 439.71 MB
+[rank 29] HybridEP dispatch torch API (BF16): 460.88 GB/s (NVL), t: 920.48 us, nvl_recv_bytes: 424.23 MB
+[rank 30] HybridEP dispatch torch API (BF16): 455.48 GB/s (NVL), t: 920.06 us, nvl_recv_bytes: 419.07 MB
+[rank 31] HybridEP dispatch torch API (BF16): 470.08 GB/s (NVL), t: 920.02 us, nvl_recv_bytes: 432.49 MB
+[rank 8] HybridEP dispatch torch API (BF16): 493.14 GB/s (NVL), t: 919.92 us, nvl_recv_bytes: 453.65 MB
+[rank 5] HybridEP dispatch torch API (BF16): 472.31 GB/s (NVL), t: 920.06 us, nvl_recv_bytes: 434.55 MB
+[rank 6] HybridEP dispatch torch API (BF16): 485.47 GB/s (NVL), t: 920.64 us, nvl_recv_bytes: 446.94 MB
+[rank 4] HybridEP dispatch torch API (BF16): 466.68 GB/s (NVL), t: 920.09 us, nvl_recv_bytes: 429.39 MB
+[rank 26] HybridEP dispatch torch API (BF16): 453.87 GB/s (NVL), t: 919.91 us, nvl_recv_bytes: 417.52 MB
+[rank 25] HybridEP dispatch torch API (BF16): 460.52 GB/s (NVL), t: 920.08 us, nvl_recv_bytes: 423.71 MB
+[rank 27] HybridEP dispatch torch API (BF16): 469.19 GB/s (NVL), t: 919.58 us, nvl_recv_bytes: 431.46 MB
+[rank 34] HybridEP dispatch torch API (BF16): 470.97 GB/s (NVL), t: 920.48 us, nvl_recv_bytes: 433.52 MB
+[rank 28] HybridEP dispatch torch API (BF16): 472.58 GB/s (NVL), t: 920.62 us, nvl_recv_bytes: 435.07 MB
+[rank 9] HybridEP dispatch torch API (BF16): 499.53 GB/s (NVL), t: 919.52 us, nvl_recv_bytes: 459.33 MB
+[rank 10] HybridEP dispatch torch API (BF16): 485.22 GB/s (NVL), t: 920.04 us, nvl_recv_bytes: 446.42 MB
+[rank 7] HybridEP combine torch API: 409.04 GB/s (NVL), t: 1034.63 us, combine_send_bytes: 423.20 MB
+[rank 6] HybridEP combine torch API: 432.12 GB/s (NVL), t: 1034.31 us, combine_send_bytes: 446.94 MB
+[rank 1] HybridEP combine torch API: 414.18 GB/s (NVL), t: 1034.24 us, combine_send_bytes: 428.36 MB
+[rank 0] HybridEP combine torch API: 401.70 GB/s (NVL), t: 1034.26 us, combine_send_bytes: 415.46 MB
+[rank 19] HybridEP combine torch API: 401.68 GB/s (NVL), t: 1034.31 us, combine_send_bytes: 415.46 MB
+[rank 21] HybridEP combine torch API: 436.45 GB/s (NVL), t: 1034.67 us, combine_send_bytes: 451.58 MB
+[rank 29] HybridEP combine torch API: 410.16 GB/s (NVL), t: 1034.31 us, combine_send_bytes: 424.23 MB
+[rank 28] HybridEP combine torch API: 420.48 GB/s (NVL), t: 1034.69 us, combine_send_bytes: 435.07 MB
+[rank 5] HybridEP combine torch API: 420.40 GB/s (NVL), t: 1033.68 us, combine_send_bytes: 434.55 MB
+[rank 4] HybridEP combine torch API: 415.36 GB/s (NVL), t: 1033.78 us, combine_send_bytes: 429.39 MB
+[rank 3] HybridEP combine torch API: 421.35 GB/s (NVL), t: 1033.79 us, combine_send_bytes: 435.59 MB
+[rank 34] HybridEP combine torch API: 419.05 GB/s (NVL), t: 1034.54 us, combine_send_bytes: 433.52 MB
+[rank 20] HybridEP combine torch API: 407.09 GB/s (NVL), t: 1034.50 us, combine_send_bytes: 421.13 MB
+[rank 15] HybridEP combine torch API: 407.32 GB/s (NVL), t: 1033.92 us, combine_send_bytes: 421.13 MB
+[rank 2] HybridEP combine torch API: 430.79 GB/s (NVL), t: 1033.89 us, combine_send_bytes: 445.39 MB
+[rank 35] HybridEP combine torch API: 420.50 GB/s (NVL), t: 1034.64 us, combine_send_bytes: 435.07 MB
+[rank 32] HybridEP combine torch API: 403.79 GB/s (NVL), t: 1034.02 us, combine_send_bytes: 417.52 MB
+[rank 22] HybridEP combine torch API: 416.37 GB/s (NVL), t: 1033.76 us, combine_send_bytes: 430.42 MB
+[rank 30] HybridEP combine torch API: 405.23 GB/s (NVL), t: 1034.15 us, combine_send_bytes: 419.07 MB
+[rank 14] HybridEP combine torch API: 403.09 GB/s (NVL), t: 1034.53 us, combine_send_bytes: 417.01 MB
+[rank 33] HybridEP combine torch API: 425.17 GB/s (NVL), t: 1034.21 us, combine_send_bytes: 439.71 MB
+[rank 23] HybridEP combine torch API: 431.79 GB/s (NVL), t: 1033.90 us, combine_send_bytes: 446.42 MB
+[rank 31] HybridEP combine torch API: 418.25 GB/s (NVL), t: 1034.03 us, combine_send_bytes: 432.49 MB
+[rank 13] HybridEP combine torch API: 451.05 GB/s (NVL), t: 1034.37 us, combine_send_bytes: 466.55 MB
+[rank 12] HybridEP combine torch API: 411.30 GB/s (NVL), t: 1033.94 us, combine_send_bytes: 425.26 MB
+[rank 9] HybridEP combine torch API: 444.47 GB/s (NVL), t: 1033.42 us, combine_send_bytes: 459.33 MB
+[rank 24] HybridEP combine torch API: 405.97 GB/s (NVL), t: 1033.54 us, combine_send_bytes: 419.59 MB
+[rank 26] HybridEP combine torch API: 403.89 GB/s (NVL), t: 1033.74 us, combine_send_bytes: 417.52 MB
+[rank 11] HybridEP combine torch API: 432.52 GB/s (NVL), t: 1034.53 us, combine_send_bytes: 447.46 MB
+[rank 25] HybridEP combine torch API: 409.81 GB/s (NVL), t: 1033.94 us, combine_send_bytes: 423.71 MB
+[rank 27] HybridEP combine torch API: 417.46 GB/s (NVL), t: 1033.53 us, combine_send_bytes: 431.46 MB
+[rank 8] HybridEP combine torch API: 438.89 GB/s (NVL), t: 1033.62 us, combine_send_bytes: 453.65 MB
+[rank 10] HybridEP combine torch API: 431.75 GB/s (NVL), t: 1033.98 us, combine_send_bytes: 446.42 MB
+[rank 17] HybridEP combine torch API: 421.82 GB/s (NVL), t: 1033.85 us, combine_send_bytes: 436.10 MB
+[rank 16] HybridEP combine torch API: 421.37 GB/s (NVL), t: 1033.72 us, combine_send_bytes: 435.59 MB
+[rank 18] HybridEP combine torch API: 393.73 GB/s (NVL), t: 1034.20 us, combine_send_bytes: 407.20 MB
+[rank 7] HybridEP dispatch kernel (BF16): 598.58 GB/s, avg_t=707.00 us | HybridEP combine kernel: 531.82 GB/s, avg_t=795.76 us
+[rank 15] HybridEP dispatch kernel (BF16): 597.37 GB/s, avg_t=704.99 us | HybridEP combine kernel: 530.80 GB/s, avg_t=793.39 us
+[rank 6] HybridEP dispatch kernel (BF16): 626.36 GB/s, avg_t=713.55 us | HybridEP combine kernel: 564.81 GB/s, avg_t=791.31 us
+[rank 1] HybridEP dispatch kernel (BF16): 608.31 GB/s, avg_t=704.18 us | HybridEP combine kernel: 539.02 GB/s, avg_t=794.70 us
+[rank 29] HybridEP dispatch kernel (BF16): 601.54 GB/s, avg_t=705.25 us | HybridEP combine kernel: 532.98 GB/s, avg_t=795.97 us
+[rank 34] HybridEP dispatch kernel (BF16): 615.84 GB/s, avg_t=703.95 us | HybridEP combine kernel: 544.25 GB/s, avg_t=796.55 us
+[rank 35] HybridEP dispatch kernel (BF16): 619.95 GB/s, avg_t=701.78 us | HybridEP combine kernel: 545.52 GB/s, avg_t=797.53 us
+[rank 28] HybridEP dispatch kernel (BF16): 613.10 GB/s, avg_t=709.62 us | HybridEP combine kernel: 547.01 GB/s, avg_t=795.36 us
+[rank 21] HybridEP dispatch kernel (BF16): 637.39 GB/s, avg_t=708.49 us | HybridEP combine kernel: 563.30 GB/s, avg_t=801.68 us
+[rank 24] HybridEP dispatch kernel (BF16): 591.80 GB/s, avg_t=709.00 us | HybridEP combine kernel: 523.73 GB/s, avg_t=801.15 us
+[rank 22] HybridEP dispatch kernel (BF16): 609.13 GB/s, avg_t=706.62 us | HybridEP combine kernel: 539.92 GB/s, avg_t=797.20 us
+[rank 30] HybridEP dispatch kernel (BF16): 590.35 GB/s, avg_t=709.87 us | HybridEP combine kernel: 529.31 GB/s, avg_t=791.73 us
+[rank 19] HybridEP dispatch kernel (BF16): 587.14 GB/s, avg_t=707.60 us | HybridEP combine kernel: 522.48 GB/s, avg_t=795.16 us
+[rank 5] HybridEP dispatch kernel (BF16): 614.30 GB/s, avg_t=707.39 us | HybridEP combine kernel: 545.84 GB/s, avg_t=796.12 us
+[rank 18] HybridEP dispatch kernel (BF16): 580.06 GB/s, avg_t=702.00 us | HybridEP combine kernel: 513.08 GB/s, avg_t=793.63 us
+[rank 31] HybridEP dispatch kernel (BF16): 612.04 GB/s, avg_t=706.64 us | HybridEP combine kernel: 542.20 GB/s, avg_t=797.66 us
+[rank 20] HybridEP dispatch kernel (BF16): 594.21 GB/s, avg_t=708.73 us | HybridEP combine kernel: 531.21 GB/s, avg_t=792.78 us
+[rank 4] HybridEP dispatch kernel (BF16): 606.90 GB/s, avg_t=707.51 us | HybridEP combine kernel: 540.43 GB/s, avg_t=794.54 us
+[rank 2] HybridEP dispatch kernel (BF16): 630.26 GB/s, avg_t=706.68 us | HybridEP combine kernel: 554.15 GB/s, avg_t=803.73 us
+[rank 0] HybridEP dispatch kernel (BF16): 588.27 GB/s, avg_t=706.23 us | HybridEP combine kernel: 525.83 GB/s, avg_t=790.10 us
+[rank 12] HybridEP dispatch kernel (BF16): 597.52 GB/s, avg_t=711.71 us | HybridEP combine kernel: 533.97 GB/s, avg_t=796.42 us
+[rank 14] HybridEP dispatch kernel (BF16): 590.09 GB/s, avg_t=706.68 us | HybridEP combine kernel: 524.21 GB/s, avg_t=795.50 us
+[rank 3] HybridEP dispatch kernel (BF16): 614.43 GB/s, avg_t=708.93 us | HybridEP combine kernel: 544.86 GB/s, avg_t=799.44 us
+[rank 17] HybridEP dispatch kernel (BF16): 620.86 GB/s, avg_t=702.42 us | HybridEP combine kernel: 547.80 GB/s, avg_t=796.09 us
+[rank 9] HybridEP dispatch kernel (BF16): 651.66 GB/s, avg_t=704.86 us | HybridEP combine kernel: 579.82 GB/s, avg_t=792.19 us
+[rank 33] HybridEP dispatch kernel (BF16): 624.15 GB/s, avg_t=704.50 us | HybridEP combine kernel: 548.66 GB/s, avg_t=801.43 us
+[rank 23] HybridEP dispatch kernel (BF16): 637.97 GB/s, avg_t=699.75 us | HybridEP combine kernel: 564.35 GB/s, avg_t=791.04 us
+[rank 32] HybridEP dispatch kernel (BF16): 590.52 GB/s, avg_t=707.04 us | HybridEP combine kernel: 523.21 GB/s, avg_t=798.00 us
+[rank 16] HybridEP dispatch kernel (BF16): 617.27 GB/s, avg_t=705.66 us | HybridEP combine kernel: 545.30 GB/s, avg_t=798.80 us
+[rank 26] HybridEP dispatch kernel (BF16): 593.02 GB/s, avg_t=704.06 us | HybridEP combine kernel: 528.21 GB/s, avg_t=790.45 us
+[rank 27] HybridEP dispatch kernel (BF16): 613.86 GB/s, avg_t=702.85 us | HybridEP combine kernel: 542.92 GB/s, avg_t=794.70 us
+[rank 10] HybridEP dispatch kernel (BF16): 633.24 GB/s, avg_t=704.99 us | HybridEP combine kernel: 563.55 GB/s, avg_t=792.16 us
+[rank 25] HybridEP dispatch kernel (BF16): 599.84 GB/s, avg_t=706.37 us | HybridEP combine kernel: 531.96 GB/s, avg_t=796.51 us
+[rank 13] HybridEP dispatch kernel (BF16): 664.53 GB/s, avg_t=702.08 us | HybridEP combine kernel: 588.43 GB/s, avg_t=792.87 us
+[rank 11] HybridEP dispatch kernel (BF16): 640.56 GB/s, avg_t=698.54 us | HybridEP combine kernel: 556.26 GB/s, avg_t=804.40 us
+[rank 8] HybridEP dispatch kernel (BF16): 650.20 GB/s, avg_t=697.71 us | HybridEP combine kernel: 563.26 GB/s, avg_t=805.40 us

@@ -1,0 +1,76 @@
+test test_mnnvlink_hybridep, host: ptyche0284.ptyche.clusters.nvidia.com
+test test_mnnvlink_hybridep, host: ptyche0288.ptyche.clusters.nvidia.com
+[W923 07:09:19.250772089 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.250906393 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.259081836 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.259216204 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.265695355 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.265822619 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.272446602 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.272578315 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.279838395 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.279969563 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.282489889 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.282622657 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.297699236 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.297840004 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.303656113 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:19.303786642 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[rank 4] HybridEP dispatch torch API (FP8): 415.69 GB/s (NVL), t: 388.94 us, nvl_recv_bytes: 161.68 MB
+[rank 6] HybridEP dispatch torch API (FP8): 421.57 GB/s (NVL), t: 388.56 us, nvl_recv_bytes: 163.81 MB
+Correctness check passed
+[rank 0] HybridEP dispatch torch API (FP8): 420.19 GB/s (NVL), t: 389.00 us, nvl_recv_bytes: 163.45 MB
+[rank 5] HybridEP dispatch torch API (FP8): 424.29 GB/s (NVL), t: 389.00 us, nvl_recv_bytes: 165.05 MB
+[rank 7] HybridEP dispatch torch API (FP8): 429.83 GB/s (NVL), t: 388.53 us, nvl_recv_bytes: 167.00 MB
+[rank 2] HybridEP dispatch torch API (FP8): 421.78 GB/s (NVL), t: 388.51 us, nvl_recv_bytes: 163.87 MB
+[rank 1] HybridEP dispatch torch API (FP8): 423.32 GB/s (NVL), t: 389.05 us, nvl_recv_bytes: 164.69 MB
+[rank 3] HybridEP dispatch torch API (FP8): 416.71 GB/s (NVL), t: 388.56 us, nvl_recv_bytes: 161.91 MB
+[rank 0] HybridEP combine torch API: 536.88 GB/s (NVL), t: 590.45 us, combine_send_bytes: 317.00 MB
+[rank 1] HybridEP combine torch API: 540.95 GB/s (NVL), t: 590.45 us, combine_send_bytes: 319.41 MB
+[rank 2] HybridEP combine torch API: 538.63 GB/s (NVL), t: 590.02 us, combine_send_bytes: 317.80 MB
+[rank 3] HybridEP combine torch API: 532.47 GB/s (NVL), t: 589.73 us, combine_send_bytes: 314.02 MB
+[rank 4] HybridEP combine torch API: 530.99 GB/s (NVL), t: 590.51 us, combine_send_bytes: 313.56 MB
+[rank 6] HybridEP combine torch API: 538.56 GB/s (NVL), t: 589.88 us, combine_send_bytes: 317.69 MB
+[rank 5] HybridEP combine torch API: 542.08 GB/s (NVL), t: 590.49 us, combine_send_bytes: 320.09 MB
+[rank 7] HybridEP combine torch API: 549.12 GB/s (NVL), t: 589.82 us, combine_send_bytes: 323.88 MB
+[rank 0] HybridEP dispatch kernel (FP8): 623.25 GB/s, avg_t=262.26 us | HybridEP combine kernel: 684.62 GB/s, avg_t=463.03 us
+[rank 4] HybridEP dispatch kernel (FP8): 605.82 GB/s, avg_t=266.88 us | HybridEP combine kernel: 669.71 GB/s, avg_t=468.19 us
+[rank 6] HybridEP dispatch kernel (FP8): 617.14 GB/s, avg_t=265.43 us | HybridEP combine kernel: 683.03 GB/s, avg_t=465.11 us
+[rank 7] HybridEP dispatch kernel (FP8): 633.49 GB/s, avg_t=263.62 us | HybridEP combine kernel: 698.72 GB/s, avg_t=463.54 us
+[rank 5] HybridEP dispatch kernel (FP8): 624.63 GB/s, avg_t=264.23 us | HybridEP combine kernel: 687.75 GB/s, avg_t=465.43 us
+[rank 1] HybridEP dispatch kernel (FP8): 624.13 GB/s, avg_t=263.88 us | HybridEP combine kernel: 684.80 GB/s, avg_t=466.42 us
+[rank 2] HybridEP dispatch kernel (FP8): 622.22 GB/s, avg_t=263.36 us | HybridEP combine kernel: 683.97 GB/s, avg_t=464.64 us
+[rank 3] HybridEP dispatch kernel (FP8): 617.15 GB/s, avg_t=262.36 us | HybridEP combine kernel: 676.98 GB/s, avg_t=463.85 us
+[W923 07:09:32.855957376 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:32.857284195 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:32.858575974 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:32.859754729 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:32.860916363 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:32.862130958 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:32.863389393 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[W923 07:09:32.864549076 socket.cpp:755] [c10d] The client socket has failed to connect to [ptyche0284.ptyche.clusters.nvidia.com]:53568 (errno: 22 - Invalid argument).
+[rank 4] HybridEP dispatch torch API (BF16): 542.32 GB/s (NVL), t: 578.17 us, nvl_recv_bytes: 313.56 MB
+[rank 6] HybridEP dispatch torch API (BF16): 549.92 GB/s (NVL), t: 577.69 us, nvl_recv_bytes: 317.69 MB
+Correctness check passed
+[rank 0] HybridEP dispatch torch API (BF16): 548.23 GB/s (NVL), t: 578.22 us, nvl_recv_bytes: 317.00 MB
+[rank 2] HybridEP dispatch torch API (BF16): 550.09 GB/s (NVL), t: 577.73 us, nvl_recv_bytes: 317.80 MB
+[rank 1] HybridEP dispatch torch API (BF16): 552.41 GB/s (NVL), t: 578.21 us, nvl_recv_bytes: 319.41 MB
+[rank 3] HybridEP dispatch torch API (BF16): 543.53 GB/s (NVL), t: 577.73 us, nvl_recv_bytes: 314.02 MB
+[rank 7] HybridEP dispatch torch API (BF16): 560.69 GB/s (NVL), t: 577.64 us, nvl_recv_bytes: 323.88 MB
+[rank 5] HybridEP dispatch torch API (BF16): 553.60 GB/s (NVL), t: 578.21 us, nvl_recv_bytes: 320.09 MB
+[rank 0] HybridEP combine torch API: 536.40 GB/s (NVL), t: 590.97 us, combine_send_bytes: 317.00 MB
+[rank 4] HybridEP combine torch API: 530.77 GB/s (NVL), t: 590.76 us, combine_send_bytes: 313.56 MB
+[rank 1] HybridEP combine torch API: 540.45 GB/s (NVL), t: 591.00 us, combine_send_bytes: 319.41 MB
+[rank 5] HybridEP combine torch API: 541.59 GB/s (NVL), t: 591.02 us, combine_send_bytes: 320.09 MB
+[rank 6] HybridEP combine torch API: 537.89 GB/s (NVL), t: 590.61 us, combine_send_bytes: 317.69 MB
+[rank 2] HybridEP combine torch API: 538.18 GB/s (NVL), t: 590.51 us, combine_send_bytes: 317.80 MB
+[rank 7] HybridEP combine torch API: 548.43 GB/s (NVL), t: 590.56 us, combine_send_bytes: 323.88 MB
+[rank 3] HybridEP combine torch API: 531.72 GB/s (NVL), t: 590.56 us, combine_send_bytes: 314.02 MB
+[rank 0] HybridEP dispatch kernel (BF16): 742.33 GB/s, avg_t=427.03 us | HybridEP combine kernel: 682.80 GB/s, avg_t=464.26 us
+[rank 4] HybridEP dispatch kernel (BF16): 747.30 GB/s, avg_t=419.59 us | HybridEP combine kernel: 672.39 GB/s, avg_t=466.33 us
+[rank 1] HybridEP dispatch kernel (BF16): 746.10 GB/s, avg_t=428.10 us | HybridEP combine kernel: 686.27 GB/s, avg_t=465.42 us
+[rank 2] HybridEP dispatch kernel (BF16): 742.05 GB/s, avg_t=428.27 us | HybridEP combine kernel: 686.82 GB/s, avg_t=462.71 us
+[rank 3] HybridEP dispatch kernel (BF16): 743.00 GB/s, avg_t=422.63 us | HybridEP combine kernel: 680.36 GB/s, avg_t=461.54 us
+[rank 7] HybridEP dispatch kernel (BF16): 763.92 GB/s, avg_t=423.97 us | HybridEP combine kernel: 699.54 GB/s, avg_t=462.99 us
+[rank 5] HybridEP dispatch kernel (BF16): 761.10 GB/s, avg_t=420.57 us | HybridEP combine kernel: 687.81 GB/s, avg_t=465.38 us
+[rank 6] HybridEP dispatch kernel (BF16): 755.39 GB/s, avg_t=420.56 us | HybridEP combine kernel: 682.81 GB/s, avg_t=465.26 us

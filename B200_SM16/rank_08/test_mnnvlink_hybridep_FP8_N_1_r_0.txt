@@ -1,0 +1,118 @@
+Generating SQLite file /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite from /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.nsys-rep
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/nvtx_sum.py]... 
+
+ ** NVTX Range Summary (nvtx_sum):
+
+ Time (%)  Total Time (ns)  Instances   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)   Style             Range          
+ --------  ---------------  ---------  ----------  ----------  --------  --------  -----------  -------  -------------------------
+     52.4        486057514          8  60757189.3  60753805.5  60717389  60802205      25484.2  PushPop  :hybrid-ep combine       
+     46.4        429865536          8  53733192.0  54377222.0  51599022  54602125    1292364.4  PushPop  :hybrid-ep dispatch (FP8)
+      1.2         11033353        800     13791.7     13192.0     10722     68295       3483.3  PushPop  NCCL:ncclAllGather       
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/osrt_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain OS Runtime trace data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/cuda_api_sum.py]... 
+
+ ** CUDA API Summary (cuda_api_sum):
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                     Name                   
+ --------  ---------------  ---------  ----------  ---------  --------  --------  -----------  ------------------------------------------
+     56.1        455698473         32  14240577.3   175679.5      5289  56873879   24860771.2  cudaDeviceSynchronize                     
+     31.1        252742274        800    315927.8   286698.0     18088   2941378     233983.4  cudaStreamSynchronize                     
+      4.3         35301723       9616      3671.1     3613.0      1994     31446       1152.7  cudaLaunchKernel                          
+      4.3         34883757       6400      5450.6     4734.0      3018     23554       1795.3  cudaMemcpyAsync                           
+      1.5         12005721          2   6002860.5  6002860.5   5491105   6514616     723731.6  cudaProfilerStop                          
+      0.7          5961523       4800      1242.0      581.0       350     10588       1111.6  cudaEventRecord                           
+      0.5          3653866        800      4567.3     4458.5      3271     11905        881.1  cuLaunchKernelEx                          
+      0.4          3283423        800      4104.3     4143.0      2651     13004        819.4  cudaMemsetAsync                           
+      0.4          3176870       1600      1985.5     1858.0      1337     15075        921.9  cudaEventQuery                            
+      0.3          2237307       3061       730.9      451.0       243     16335       1013.9  cudaEventCreateWithFlags                  
+      0.1           979420       1600       612.1      613.0       343      2588        234.3  cudaStreamWaitEvent                       
+      0.1           970319       2400       404.3      384.0       223     19639        532.2  cudaEventDestroy                          
+      0.0           323252       1600       202.0      165.0       150      8590        373.0  cudaThreadExchangeStreamCaptureMode_v10010
+      0.0           316710        800       395.9      369.0       309      6386        284.3  cudaStreamIsCapturing_v10000              
+      0.0           284327        800       355.4      336.0       233      6415        226.0  cudaStreamGetCaptureInfo_v2_v11030        
+      0.0            90274        800       112.8      105.0        73       666         39.3  cudaGetFuncBySymbol_v11000                
+      0.0            19612          8      2451.5     2520.0      2106      2768        230.3  cuProfilerStart                           
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/cuda_gpu_kern_sum.py]... 
+
+ ** CUDA GPU Kernel Summary (cuda_gpu_kern_sum):
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                                                  Name                                                
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  ----------------------------------------------------------------------------------------------------
+     53.9        381857280        800  477321.6  477064.0    472056    484918       2400.6  void hybrid_ep::combine_kernel<hybrid_ep::warp_group<(int)0, (int)0>, hybrid_ep::warp_group<(int)4,…
+     31.0        219686514        800  274608.1  274491.5    264028    280315       1895.1  void hybrid_ep::dispatch_kernel<unsigned char, hybrid_ep::warp_group<(int)0, (int)0>, hybrid_ep::wa…
+      5.2         36606082        800   45757.6   24623.5     21343   2985581     242747.0  ncclDevKernel_AllGather_RING_LL(ncclDevKernelArgsStorage<(unsigned long)4096>)                      
+      3.9         27448531        800   34310.7   34464.0     33183     37919        469.1  void hybrid_ep::scan<(int)128, (int)16, (int)8, (int)1, (int)8>(const bool *, hybrid_ep::tmp_state_…
+      3.4         24171062       1600   15106.9    8960.0      1504    805462      61623.0  hybrid_ep::device_sync_kernel(unsigned int *, const unsigned int *)                                 
+      0.9          6715554        800    8394.4    8384.0      7968      8991        166.5  void at::native::_scatter_gather_elementwise_kernel<(int)128, (int)8, void at::native::_cuda_scatte…
+      0.8          5315293        800    6644.1    6624.0      6367      7072        125.1  void at::native::_scatter_gather_elementwise_kernel<(int)128, (int)8, void at::native::_cuda_scatte…
+      0.4          2631439       1600    1644.6    1664.0      1120      2464        316.0  void hybrid_ep::update_expected_value_kernel<(int)1, (int)8, (bool)1>(unsigned long *, unsigned int…
+      0.2          1656131        816    2029.6    1312.0       864     35295       4633.0  void at::native::vectorized_elementwise_kernel<(int)4, at::native::FillFunctor<int>, std::array<cha…
+      0.2          1201837        800    1502.3    1504.0      1247      1728        116.2  void at::native::vectorized_elementwise_kernel<(int)4, at::native::FillFunctor<bool>, std::array<ch…
+      0.2          1194574        800    1493.2    1472.0      1376      1696         72.1  void at::native::vectorized_elementwise_kernel<(int)4, at::native::FillFunctor<float>, std::array<c…
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/cuda_gpu_mem_time_sum.py]... 
+
+ ** CUDA GPU MemOps Summary (by Time) (cuda_gpu_mem_time_sum):
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)            Operation           
+ --------  ---------------  -----  --------  --------  --------  --------  -----------  ------------------------------
+     97.3        136083936   5600   24300.7    7488.0      1471    103038      33624.9  [CUDA memcpy Device-to-Device]
+      1.9          2635190    800    3294.0    3360.0      2400      8672        366.2  [CUDA memcpy Device-to-Host]  
+      0.9          1193006    800    1491.3    1568.0       832      2272        241.5  [CUDA memset]                 
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/cuda_gpu_mem_size_sum.py]... 
+
+ ** CUDA GPU MemOps Summary (by Size) (cuda_gpu_mem_size_sum):
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)            Operation           
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------------------
+ 395390.464   5600    70.605     5.628     0.262   323.191      114.287  [CUDA memcpy Device-to-Device]
+      0.819    800     0.001     0.001     0.001     0.001        0.000  [CUDA memset]                 
+      0.003    800     0.000     0.000     0.000     0.000        0.000  [CUDA memcpy Device-to-Host]  
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/openmp_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain OpenMP event data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/opengl_khr_range_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain KHR Extension (KHR_DEBUG) data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/opengl_khr_gpu_range_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain GPU KHR Extension (KHR_DEBUG) data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/vulkan_marker_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain Vulkan Debug Extension (Vulkan Debug Util) data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/vulkan_gpu_marker_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain GPU Vulkan Debug Extension (GPU Vulkan Debug markers) data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/dx11_pix_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain DX11 CPU debug markers.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/dx12_gpu_marker_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain DX12 GPU debug markers.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/dx12_pix_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain DX12 CPU debug markers.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/wddm_queue_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain WDDM context data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/um_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain CUDA Unified Memory CPU page faults data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/um_total_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain CUDA Unified Memory CPU page faults data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/um_cpu_page_faults_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain CUDA Unified Memory CPU page faults data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/openacc_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain OpenACC event data.
+
+Processing [/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite] with [/usr/local/cuda-12.9/NsightSystems-cli-2025.3.1/target-linux-x64/reports/syscall_sum.py]... 
+SKIPPED: /lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybrid_ep/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_1_r_0.sqlite does not contain syscall data.
+

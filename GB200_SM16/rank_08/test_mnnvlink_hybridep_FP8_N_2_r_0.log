@@ -1,0 +1,18 @@
+[rank 2] HybridEP dispatch torch API (FP8): 411.32 GB/s (NVL), t: 398.39 us, nvl_recv_bytes: 163.87 MB
+Correctness check passed
+[rank 0] HybridEP dispatch torch API (FP8): 410.87 GB/s (NVL), t: 397.82 us, nvl_recv_bytes: 163.45 MB
+[rank 1] HybridEP dispatch torch API (FP8): 413.97 GB/s (NVL), t: 397.84 us, nvl_recv_bytes: 164.69 MB
+[rank 3] HybridEP dispatch torch API (FP8): 406.46 GB/s (NVL), t: 398.35 us, nvl_recv_bytes: 161.91 MB
+[rank 2] HybridEP combine torch API: 522.36 GB/s (NVL), t: 608.39 us, combine_send_bytes: 317.80 MB
+[rank 0] HybridEP combine torch API: 521.41 GB/s (NVL), t: 607.96 us, combine_send_bytes: 317.00 MB
+[rank 3] HybridEP combine torch API: 516.34 GB/s (NVL), t: 608.16 us, combine_send_bytes: 314.02 MB
+[rank 1] HybridEP combine torch API: 525.38 GB/s (NVL), t: 607.95 us, combine_send_bytes: 319.41 MB
+profile hybrid-ep dispatch (FP8)
+profile hybrid-ep combine
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-dc22.qdstrm'
+[1/1] [0%                          ] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-repProcessing events...
+[1/1] [0%                          ] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep[1/1] [===22%                      ] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep[1/1] [=========46%                ] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep[1/1] [===========51%              ] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep[1/1] [============55%             ] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep[1/1] [===================79%      ] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep[1/1] [===================80%      ] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep[1/1] [========================100%] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep[1/1] [========================100%] test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep
+Generated:
+	/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybride_ep/rank_08/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_FP8_N_2_r_0.nsys-rep

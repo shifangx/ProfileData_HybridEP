@@ -1,0 +1,181 @@
+test test_mnnvlink_hybridep, host: prenyx0107.a51.clusters.nvidia.com
+[W924 02:43:59.097121856 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.097307474 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.097495916 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.097676177 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.097863664 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.112751060 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.112928126 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.113134763 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.113317058 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.113500513 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.121908646 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.122110235 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.122288052 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.122466774 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.122634760 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.128370297 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.128511893 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.128627357 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.128768994 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.128905814 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.136080288 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.136207081 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.136344740 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.136479076 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.136621557 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.160234904 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.160385498 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.160519175 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.160646208 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.160782220 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.176806686 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.176938775 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.177073504 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.177202989 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.177340257 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.193908869 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.194049388 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.194195772 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.194341671 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.194465775 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.207173553 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.207301456 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.207443940 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.207579108 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.207729080 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.224157736 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.224297194 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.224439530 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.224589819 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.224725487 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.240976839 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.241111439 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.241244307 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.241384649 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.241510970 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.248027080 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.248148070 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.248294125 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.248426931 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.248565825 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.249985840 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.250122721 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.250259433 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.250385007 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:43:59.250525272 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[rank 1] HybridEP dispatch torch API (FP8): 407.45 GB/s (NVL), t: 399.71 us, nvl_recv_bytes: 162.86 MB
+[rank 7] HybridEP dispatch torch API (FP8): 409.00 GB/s (NVL), t: 399.92 us, nvl_recv_bytes: 163.57 MB
+[rank 4] HybridEP dispatch torch API (FP8): 415.25 GB/s (NVL), t: 399.89 us, nvl_recv_bytes: 166.05 MB
+[rank 3] HybridEP dispatch torch API (FP8): 416.72 GB/s (NVL), t: 399.90 us, nvl_recv_bytes: 166.65 MB
+Correctness check passed
+[rank 0] HybridEP dispatch torch API (FP8): 415.19 GB/s (NVL), t: 399.81 us, nvl_recv_bytes: 165.99 MB
+[rank 6] HybridEP dispatch torch API (FP8): 406.13 GB/s (NVL), t: 399.99 us, nvl_recv_bytes: 162.45 MB
+[rank 2] HybridEP dispatch torch API (FP8): 401.61 GB/s (NVL), t: 399.78 us, nvl_recv_bytes: 160.55 MB
+[rank 5] HybridEP dispatch torch API (FP8): 406.35 GB/s (NVL), t: 400.07 us, nvl_recv_bytes: 162.56 MB
+[rank 6] HybridEP combine torch API: 525.93 GB/s (NVL), t: 599.03 us, combine_send_bytes: 315.05 MB
+[rank 7] HybridEP combine torch API: 529.59 GB/s (NVL), t: 599.01 us, combine_send_bytes: 317.23 MB
+[rank 0] HybridEP combine torch API: 537.59 GB/s (NVL), t: 598.84 us, combine_send_bytes: 321.93 MB
+[rank 3] HybridEP combine torch API: 539.67 GB/s (NVL), t: 598.87 us, combine_send_bytes: 323.19 MB
+[rank 1] HybridEP combine torch API: 527.44 GB/s (NVL), t: 598.83 us, combine_send_bytes: 315.85 MB
+[rank 4] HybridEP combine torch API: 537.68 GB/s (NVL), t: 598.96 us, combine_send_bytes: 322.04 MB
+[rank 2] HybridEP combine torch API: 519.94 GB/s (NVL), t: 598.87 us, combine_send_bytes: 311.38 MB
+[rank 5] HybridEP combine torch API: 526.27 GB/s (NVL), t: 599.08 us, combine_send_bytes: 315.28 MB
+[rank 7] HybridEP dispatch kernel (FP8): 602.36 GB/s, avg_t=271.55 us | HybridEP combine kernel: 671.61 GB/s, avg_t=472.34 us
+[rank 4] HybridEP dispatch kernel (FP8): 603.63 GB/s, avg_t=275.09 us | HybridEP combine kernel: 679.55 GB/s, avg_t=473.91 us
+[rank 3] HybridEP dispatch kernel (FP8): 611.30 GB/s, avg_t=272.61 us | HybridEP combine kernel: 686.31 GB/s, avg_t=470.91 us
+[rank 1] HybridEP dispatch kernel (FP8): 597.63 GB/s, avg_t=272.51 us | HybridEP combine kernel: 670.17 GB/s, avg_t=471.30 us
+[rank 6] HybridEP dispatch kernel (FP8): 595.29 GB/s, avg_t=272.89 us | HybridEP combine kernel: 667.52 GB/s, avg_t=471.97 us
+[rank 2] HybridEP dispatch kernel (FP8): 591.63 GB/s, avg_t=271.38 us | HybridEP combine kernel: 658.43 GB/s, avg_t=472.91 us
+[rank 0] HybridEP dispatch kernel (FP8): 605.00 GB/s, avg_t=274.37 us | HybridEP combine kernel: 683.68 GB/s, avg_t=470.88 us
+[rank 5] HybridEP dispatch kernel (FP8): 587.34 GB/s, avg_t=276.78 us | HybridEP combine kernel: 669.71 GB/s, avg_t=470.76 us
+[W924 02:44:21.453354124 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.454529435 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.455607080 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.456601052 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.457831587 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.459221338 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.459475407 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.461045654 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.461509478 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.462709730 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.463433649 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.463636928 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.465540104 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.465704706 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.465910525 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.466104315 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.468093663 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.468292625 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.468494616 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.468703835 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.470763527 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.471076236 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.471223217 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.471422081 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.473652173 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.473852352 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.474174840 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.474644346 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.476412916 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.476724723 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.477048181 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.477356696 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.477690052 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.479291199 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.479606920 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.479928863 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.480425715 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.481657238 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.482199991 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.482510214 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.483133739 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.484082141 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.484819072 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.485132696 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.485818533 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.487004616 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.487748553 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.488078107 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.488919559 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.489790306 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.490440428 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.490774024 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.491426329 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.492076717 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.492704870 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.493281322 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.494109347 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.494936246 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.495560923 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.496095448 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.496938453 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.497440572 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.498424659 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.499339946 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+[W924 02:44:21.500313215 socket.cpp:755] [c10d] The client socket has failed to connect to [prenyx0107.a51.clusters.nvidia.com]:51534 (errno: 22 - Invalid argument).
+Correctness check passed
+[rank 0] HybridEP dispatch torch API (BF16): 543.03 GB/s (NVL), t: 592.84 us, nvl_recv_bytes: 321.93 MB
+[rank 7] HybridEP dispatch torch API (BF16): 535.07 GB/s (NVL), t: 592.87 us, nvl_recv_bytes: 317.23 MB
+[rank 3] HybridEP dispatch torch API (BF16): 545.17 GB/s (NVL), t: 592.83 us, nvl_recv_bytes: 323.19 MB
+[rank 5] HybridEP dispatch torch API (BF16): 531.69 GB/s (NVL), t: 592.98 us, nvl_recv_bytes: 315.28 MB
+[rank 2] HybridEP dispatch torch API (BF16): 525.25 GB/s (NVL), t: 592.82 us, nvl_recv_bytes: 311.38 MB
+[rank 1] HybridEP dispatch torch API (BF16): 532.82 GB/s (NVL), t: 592.79 us, nvl_recv_bytes: 315.85 MB
+[rank 6] HybridEP dispatch torch API (BF16): 531.34 GB/s (NVL), t: 592.93 us, nvl_recv_bytes: 315.05 MB
+[rank 4] HybridEP dispatch torch API (BF16): 543.16 GB/s (NVL), t: 592.90 us, nvl_recv_bytes: 322.04 MB
+[rank 2] HybridEP combine torch API: 520.56 GB/s (NVL), t: 598.16 us, combine_send_bytes: 311.38 MB
+[rank 5] HybridEP combine torch API: 526.99 GB/s (NVL), t: 598.26 us, combine_send_bytes: 315.28 MB
+[rank 7] HybridEP combine torch API: 530.33 GB/s (NVL), t: 598.17 us, combine_send_bytes: 317.23 MB
+[rank 0] HybridEP combine torch API: 538.18 GB/s (NVL), t: 598.18 us, combine_send_bytes: 321.93 MB
+[rank 1] HybridEP combine torch API: 528.13 GB/s (NVL), t: 598.05 us, combine_send_bytes: 315.85 MB
+[rank 4] HybridEP combine torch API: 538.40 GB/s (NVL), t: 598.15 us, combine_send_bytes: 322.04 MB
+[rank 3] HybridEP combine torch API: 540.32 GB/s (NVL), t: 598.15 us, combine_send_bytes: 323.19 MB
+[rank 6] HybridEP combine torch API: 526.66 GB/s (NVL), t: 598.20 us, combine_send_bytes: 315.05 MB
+[rank 5] HybridEP dispatch kernel (BF16): 726.09 GB/s, avg_t=434.21 us | HybridEP combine kernel: 669.96 GB/s, avg_t=470.59 us
+[rank 0] HybridEP dispatch kernel (BF16): 735.89 GB/s, avg_t=437.47 us | HybridEP combine kernel: 685.40 GB/s, avg_t=469.70 us
+[rank 7] HybridEP dispatch kernel (BF16): 738.41 GB/s, avg_t=429.61 us | HybridEP combine kernel: 672.60 GB/s, avg_t=471.65 us
+[rank 3] HybridEP dispatch kernel (BF16): 751.69 GB/s, avg_t=429.95 us | HybridEP combine kernel: 688.10 GB/s, avg_t=469.69 us
+[rank 1] HybridEP dispatch kernel (BF16): 732.52 GB/s, avg_t=431.19 us | HybridEP combine kernel: 668.58 GB/s, avg_t=472.42 us
+[rank 4] HybridEP dispatch kernel (BF16): 742.01 GB/s, avg_t=434.02 us | HybridEP combine kernel: 680.27 GB/s, avg_t=473.41 us
+[rank 2] HybridEP dispatch kernel (BF16): 722.53 GB/s, avg_t=430.95 us | HybridEP combine kernel: 660.69 GB/s, avg_t=471.29 us
+[rank 6] HybridEP dispatch kernel (BF16): 730.45 GB/s, avg_t=431.31 us | HybridEP combine kernel: 668.89 GB/s, avg_t=471.00 us

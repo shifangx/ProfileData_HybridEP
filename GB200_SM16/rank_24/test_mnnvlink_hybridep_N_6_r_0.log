@@ -1,0 +1,18 @@
+[rank 1] HybridEP dispatch torch API (BF16): 453.35 GB/s (NVL), t: 936.52 us, nvl_recv_bytes: 424.57 MB
+[rank 3] HybridEP dispatch torch API (BF16): 414.80 GB/s (NVL), t: 935.63 us, nvl_recv_bytes: 388.10 MB
+Correctness check passed
+[rank 0] HybridEP dispatch torch API (BF16): 448.64 GB/s (NVL), t: 936.40 us, nvl_recv_bytes: 420.10 MB
+[rank 2] HybridEP dispatch torch API (BF16): 454.67 GB/s (NVL), t: 936.09 us, nvl_recv_bytes: 425.61 MB
+[rank 0] HybridEP combine torch API: 459.36 GB/s (NVL), t: 914.53 us, combine_send_bytes: 420.10 MB
+[rank 1] HybridEP combine torch API: 464.29 GB/s (NVL), t: 914.46 us, combine_send_bytes: 424.57 MB
+[rank 3] HybridEP combine torch API: 424.66 GB/s (NVL), t: 913.92 us, combine_send_bytes: 388.10 MB
+[rank 2] HybridEP combine torch API: 465.95 GB/s (NVL), t: 913.42 us, combine_send_bytes: 425.61 MB
+profile hybrid-ep dispatch (BF16)
+profile hybrid-ep combine
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-a458.qdstrm'
+[1/1] [0%                          ] test_mnnvlink_hybridep_N_6_r_0.nsys-repProcessing events...
+[1/1] [0%                          ] test_mnnvlink_hybridep_N_6_r_0.nsys-rep[1/1] [0%                          ] test_mnnvlink_hybridep_N_6_r_0.nsys-rep[1/1] [===23%                      ] test_mnnvlink_hybridep_N_6_r_0.nsys-rep[1/1] [====27%                     ] test_mnnvlink_hybridep_N_6_r_0.nsys-rep[1/1] [=====32%                    ] test_mnnvlink_hybridep_N_6_r_0.nsys-rep[1/1] [============56%             ] test_mnnvlink_hybridep_N_6_r_0.nsys-rep[1/1] [===================79%      ] test_mnnvlink_hybridep_N_6_r_0.nsys-rep[1/1] [===================80%      ] test_mnnvlink_hybridep_N_6_r_0.nsys-rep[1/1] [========================100%] test_mnnvlink_hybridep_N_6_r_0.nsys-rep[1/1] [========================100%] test_mnnvlink_hybridep_N_6_r_0.nsys-rep
+Generated:
+	/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybride_ep/rank_24/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_N_6_r_0.nsys-rep
