@@ -1,0 +1,18 @@
+Correctness check passed
+[rank 0] HybridEP dispatch torch API (BF16): 457.57 GB/s (NVL), t: 907.97 us, nvl_recv_bytes: 415.46 MB
+[rank 1] HybridEP dispatch torch API (BF16): 471.80 GB/s (NVL), t: 907.92 us, nvl_recv_bytes: 428.36 MB
+[rank 2] HybridEP dispatch torch API (BF16): 490.74 GB/s (NVL), t: 907.60 us, nvl_recv_bytes: 445.39 MB
+[rank 3] HybridEP dispatch torch API (BF16): 479.92 GB/s (NVL), t: 907.63 us, nvl_recv_bytes: 435.59 MB
+[rank 0] HybridEP combine torch API: 421.98 GB/s (NVL), t: 984.55 us, combine_send_bytes: 415.46 MB
+[rank 1] HybridEP combine torch API: 435.00 GB/s (NVL), t: 984.73 us, combine_send_bytes: 428.36 MB
+[rank 3] HybridEP combine torch API: 442.49 GB/s (NVL), t: 984.39 us, combine_send_bytes: 435.59 MB
+[rank 2] HybridEP combine torch API: 452.49 GB/s (NVL), t: 984.30 us, combine_send_bytes: 445.39 MB
+profile hybrid-ep dispatch (BF16)
+profile hybrid-ep combine
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-85e0.qdstrm'
+[1/1] [0%                          ] test_mnnvlink_hybridep_N_9_r_0.nsys-repProcessing events...
+[1/1] [0%                          ] test_mnnvlink_hybridep_N_9_r_0.nsys-rep[1/1] [===23%                      ] test_mnnvlink_hybridep_N_9_r_0.nsys-rep[1/1] [==========47%               ] test_mnnvlink_hybridep_N_9_r_0.nsys-rep[1/1] [===========51%              ] test_mnnvlink_hybridep_N_9_r_0.nsys-rep[1/1] [============56%             ] test_mnnvlink_hybridep_N_9_r_0.nsys-rep[1/1] [===================79%      ] test_mnnvlink_hybridep_N_9_r_0.nsys-rep[1/1] [===================80%      ] test_mnnvlink_hybridep_N_9_r_0.nsys-rep[1/1] [========================100%] test_mnnvlink_hybridep_N_9_r_0.nsys-rep[1/1] [========================100%] test_mnnvlink_hybridep_N_9_r_0.nsys-rep
+Generated:
+	/lustre/fsw/coreai_devtech_all/shifangx/4.DeepEP_hybride_ep/rank_36/Scripts-DeepEP/../logs/test_mnnvlink_hybridep_N_9_r_0.nsys-rep
